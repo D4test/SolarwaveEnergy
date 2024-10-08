@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solarwave Energy - Сонячні панелі для кожного</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <!-- Верхня панель із логотипом і контактами -->
+    <header class="top-bar">
+        <div class="logo">
+            <img src="./images/Logo.png" alt="SolarWave Logo">
+        </div>
+        <div class="info">
+            <div class="working-hours">
+                <i class="fas fa-clock"></i>
+                <p><strong>ГРАФІК РОБОТИ:</strong><br>
+                    <span class="highlight">ПН-ПТ </span>9:00 - 20:30<br>
+                    <span class="highlight">СБ </span>10:00 - 18:00<br>
+                    <span class="highlight">НД </span>вихідний<br>
+                </p>
+            </div>
+            <div class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Україна, м. Чернівці<br>вул. Пилипа Орлика</p>
+            </div>
+            <div class="contacts">
+                <i class="fas fa-phone-alt"></i>
+                <p>+38 098 52 544 56<br>+38 063 36 209 90</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основний блок із фоновим зображенням -->
+    <section class="solarwave-section">
+        <div class="left-content">
+            <h1>Solarwave Energy</h1>
+            <p>Сонячні панелі для кожного</p>
+            <p>Сонячні панелі — це сучасне рішення для тих, хто прагне економити та дбати про довкілля. Ми пропонуємо індивідуальні енергетичні системи для приватних будинків і бізнесу з повним циклом обслуговування — від проектування до установки та технічної підтримки.</p>
+            <button class="openModalBtn">Отримати консультацію</button>
+        </div>
+    </section>
+
+    <!-- Модальне вікно для консультації -->
+    <div id="consultationModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Консультація з нашими спеціалістами</h3>
+            <form>
+                <div class="form-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Ім'я" required>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-phone"></i>
+                    <input type="tel" placeholder="Телефон" required>
+                </div>
+                <button type="submit">Надіслати</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Блок "Наші проекти" -->
+    <section class="projects">
+        <div class="projects-content">
+            <h2>НАШІ ПРОЕКТИ</h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <div class="project-photo"><img src="./images/project1.jpg" alt="Проект 1"></div>
+                    <p>Проект встановлення сонячних панелей для приватного будинку.</p>
+                </div>
+                <div class="project-item">
+                    <div class="project-photo"><img src="./images/project2.jpg" alt="Проект 2"></div>
+                    <p>Сонячна система для малого бізнесу.</p>
+                </div>
+                <div class="project-item">
+                    <div class="project-photo"><img src="./images/project3.jpg" alt="Проект 3"></div>
+                    <p>Інтеграція сонячних панелей у комерційну нерухомість.</p>
+                </div>
+                <!-- Додайте більше проектів за потребою -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок "Чому обирають нас?" -->
+    <section class="why-choose-us">
+        <div class="why-content">
+            <h2>Чому обирають нас?</h2>
+            <div class="why-item">
+                <h3>1. Індивідуальні рішення під ваші потреби</h3>
+                <p>Ми розробляємо кожен проект персонально, враховуючи всі особливості вашої нерухомості та бюджету. Наші експерти допоможуть вам вибрати оптимальну систему, яка максимально відповідатиме вашим цілям і економічним вимогам.</p>
+            </div>
+            <div class="why-item">
+                <h3>2. Тільки перевірене обладнання</h3>
+                <p>Ми співпрацюємо з провідними виробниками сонячних панелей, що гарантує високу продуктивність і надійність. Завдяки цьому ваші інвестиції швидко окупляться, а ви зможете заощаджувати на електроенергії протягом десятиліть.</p>
+            </div>
+            <div class="why-item">
+                <h3>3. Економія та швидка окупність</h3>
+                <p>Установка сонячних панелей — це не лише про екологію, а й про ваші гроші. Ви зможете скоротити витрати на електроенергію до 70%, а вкладені інвестиції окупляться в середньому за 5–7 років.</p>
+            </div>
+            <div class="why-item">
+                <h3>4. Гарантія та підтримка</h3>
+                <p>Ми надаємо 10-річну гарантію на панелі та 1 рік безкоштовного технічного обслуговування після установки. Також ви завжди можете звернутися до нашої служби підтримки для вирішення будь-яких питань.</p>
+                <button class="openModalBtn">Отримати консультацію</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок із перевагами компанії -->
+    <section class="advantages">
+        <div class="advantages-content">
+            <h2>НАШІ ПЕРЕВАГИ</h2>
+            <ul>
+                <li>Безкоштовна доставка та монтаж в межах регіону</li>
+                <li>Гарантія 10 років на обладнання</li>
+                <li>Індивідуальний підхід до кожного клієнта</li>
+                <li>Постійна технічна підтримка та сервісне обслуговування</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Блок продукції -->
+    <section class="products">
+        <div class="products-content">
+            <h2>ПРОДУКЦІЯ</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <div class="product-photo"><img src="./images/1.png" alt="Фото"></div>
+                    <p class="price">Ціна: 135$</p>
+                    <button class="openModalBtn">Замовити</button>
+                </div>
+                <div class="product-item">
+                    <div class="product-photo"><img src="./images/2.png" alt="Фото"></div>
+                    <p class="price">Ціна: 1450$</p>
+                    <button class="openModalBtn">Замовити</button>
+                </div>
+                <div class="product-item">
+                    <div class="product-photo"><img src="./images/3.png" alt="Фото"></div>
+                    <p class="price">Ціна: 35$</p>
+                    <button class="openModalBtn">Замовити</button>
+                </div>
+                <div class="product-item">
+                    <div class="product-photo"><img src="./images/4.jpg" alt="Фото"></div>
+                    <p class="price">Ціна: від 250$</p>
+                    <button class="openModalBtn">Замовити</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок "Наші партнери" та "Відгуки" -->
+    <section class="partners-reviews">
+        <div class="partners">
+            <h2>НАШІ ПАРТНЕРИ</h2>
+            <div class="partners-carousel">
+                <div class="partner-item"><img src="./images/5.jpg" alt="Партнер 1"></div>
+                <div class="partner-item"><img src="./images/6.jpg" alt="Партнер 2"></div>
+                <div class="partner-item"><img src="./images/7.jpg" alt="Партнер 3"></div>
+                <div class="partner-item"><img src="./images/8.jpg" alt="Партнер 4"></div>
+                <div class="partner-item"><img src="./images/9.jpg" alt="Партнер 5"></div>
+                <div class="partner-item"><img src="./images/10.jpg" alt="Партнер 6"></div>
+                <div class="partner-item"><img src="./images/11.jpg" alt="Партнер 7"></div>
+            </div>
+        </div>
+        <div class="reviews">
+            <h2>ВІДГУКИ КЛІЄНТІВ</h2>
+            <div class="reviews-content">
+                <div class="review-item">
+                    <p>"Відмінний сервіс та професіональний підхід! Рекомендую Solarwave Energy."</p>
+                    <h4>Олена Іваненко</h4>
+                </div>
+                <div class="review-item">
+                    <p>"Сонячні панелі працюють бездоганно, економія на електроенергії значна."</p>
+                    <h4>Михайло Петренко</h4>
+                </div>
+                <div class="review-item">
+                    <p>"Дуже задоволений співпрацею. Все зроблено якісно та вчасно."</p>
+                    <h4>Світлана Коваль</h4>
+                </div>
+                <!-- Додайте більше відгуків за потребою -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Додатковий блок "Консультація з нашими спеціалістами" -->
+    <section class="additional-consultation">
+        <div class="consultation-content">
+            <h2>Консультація з нашими спеціалістами</h2>
+            <form>
+                <div class="form-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Ім'я" required>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-phone"></i>
+                    <input type="tel" placeholder="Телефон" required>
+                </div>
+                <button type="submit">Надіслати</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <p>© 2024 Solarwave Energy. Сайт розроблено в цілях навчання.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
